@@ -259,7 +259,7 @@ io.on("connection", (socket) => {
     console.log("💨 Socket disconnected:", socket.id);
   });
 });
-
+module.exports = app;
 // server.listen(5000, () =>
 //   console.log("✅ Backend running at http://localhost:5000")
 // );
